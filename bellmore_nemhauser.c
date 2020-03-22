@@ -1,8 +1,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <stdbool.h>
-#include "matrix.c"
-#include "list.c"
+#include "utils/matrix.c"
+#include "utils/list.c"
 
 int main()
 {
