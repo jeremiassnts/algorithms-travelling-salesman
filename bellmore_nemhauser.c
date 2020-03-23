@@ -25,8 +25,8 @@ int main()
     add(Hls, 1);
 
     printList(Hls);
-    double cost = sumCost(Hls, matrix);
-    printf("\ncusto minimo -> %lf", cost);
+    double cost = sumCost(Hls, matrix, false);
+    printf("\ncusto minimo -> %lf\n", cost);
 
     free(matrix);
     free(Hls);

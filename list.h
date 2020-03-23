@@ -20,6 +20,9 @@ void add(list *ls, int value);
 list *newList();
 void printList(list *ls);
 bool some(list *ls, int value);
-double sumCost(list *ls, double **m);
+double sumCost(list *ls, double **m, bool cycle);
+void createCycle(list *ls, int n);
+void turn(int i, int j, list *ls);
+elem *getByIndex(int i, list *ls);
 
 #endif
