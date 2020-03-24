@@ -36,7 +36,7 @@ int main()
         }
         if (A != 0 && _Z > Z_aux)
         {
-            for (int j = 0; j < A; j++)
+            for (int j = 0; j <= A; j++)
             {
                 turn(j, j + 1, H_aux);
             }
